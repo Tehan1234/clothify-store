@@ -1,0 +1,46 @@
+/* General alert styling */
+.alert {
+    -fx-background-color: #fff3e0; /* Light orange background */
+    -fx-border-color: #ffb74d;     /* Orange border */
+    -fx-border-width: 2px;
+    -fx-text-fill: #bf360c;        /* Dark orange text */
+    -fx-padding: 15px;             /* Padding inside the alert */
+    -fx-background-radius: 10px;   /* Rounded corners */
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 5); /* Shadow effect */
+}
+
+/* Header section styling */
+.alert .header {
+    -fx-background-color: #ffb74d; /* Orange header background */
+    -fx-text-fill: #3e2723;        /* Dark brown text */
+    -fx-padding: 10px;             /* Padding in header */
+    -fx-font-size: 14px;           /* Larger font size for header */
+    -fx-font-weight: bold;         /* Bold header text */
+}
+
+/* Content section styling */
+.alert .content {
+    -fx-text-fill: #bf360c;        /* Dark orange text */
+    -fx-font-size: 13px;           /* Slightly smaller font size */
+}
+
+/* Custom styling for informational alerts */
+.alert.information {
+    -fx-background-color: #e1f5fe; /* Light blue background */
+    -fx-border-color: #4fc3f7;     /* Blue border */
+    -fx-text-fill: #0277bd;        /* Dark blue text */
+}
+
+/* Custom styling for warnings */
+.alert.warning {
+    -fx-background-color: #fff9c4; /* Light yellow background */
+    -fx-border-color: #fbc02d;     /* Yellow border */
+    -fx-text-fill: #f57f17;        /* Dark yellow text */
+}
+
+/* Custom styling for error alerts */
+.alert.error {
+    -fx-background-color: #ffebee; /* Light red background */
+    -fx-border-color: #e57373;     /* Red border */
+    -fx-text-fill: #b71c1c;        /* Dark red text */
+}
