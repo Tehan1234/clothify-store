@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import single.EmployeeManagementForm;
 import single.ItemManagementForm;
+import single.PlaceOrderForm;
 import single.SupplierManagementForm;
 
 public class AdminDashboardFormController {
@@ -17,6 +18,8 @@ public class AdminDashboardFormController {
 
     @FXML
     void btnOrderManagementOnAction(ActionEvent event) {
+        PlaceOrderForm placeOrderForm = PlaceOrderForm.getInstance();
+        placeOrderForm.show();
 
     }
 

@@ -3,6 +3,8 @@ package controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import single.ItemManagementForm;
+import single.OrderManagementForm;
+import single.SupplierManagementForm;
 
 public class EmployeeDashboardFormController {
 
@@ -14,7 +16,9 @@ public class EmployeeDashboardFormController {
     }
 
     @FXML
-    void btnOrderMnagementOnAction(ActionEvent event) {
+    void btnOrderManagementOnAction(ActionEvent event) {
+        OrderManagementForm orderManagementForm = OrderManagementForm.getInstance();
+        orderManagementForm.show();
 
     }
 
@@ -24,7 +28,9 @@ public class EmployeeDashboardFormController {
     }
 
     @FXML
-    void btnSuppliersManagemntOnAction(ActionEvent event) {
+    void btnSupplierManagementOnAction(ActionEvent event) {
+        SupplierManagementForm supplierManagementForm = SupplierManagementForm.getInstance();
+        supplierManagementForm.show();
 
     }
 

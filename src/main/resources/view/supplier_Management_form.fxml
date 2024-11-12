@@ -8,69 +8,68 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SupplierManagementFormController">
    <children>
-      <AnchorPane layoutX="-5.0" prefHeight="727.0" prefWidth="868.0" style="-fx-background-color: #000000;">
+      <AnchorPane layoutY="-16.0" prefHeight="523.0" prefWidth="667.0" style="-fx-background-color: #000000;">
          <children>
-            <Label alignment="CENTER" layoutX="136.0" layoutY="14.0" prefHeight="54.0" prefWidth="545.0" text="Supplier Management Form" textAlignment="CENTER" textFill="#f5f5f5">
+            <Label alignment="CENTER" layoutX="116.0" layoutY="14.0" prefHeight="40.0" prefWidth="463.0" text="Supplier Management Form" textAlignment="CENTER" textFill="#f5f5f5">
                <font>
-                  <Font name="System Bold" size="37.0" />
+                  <Font name="System Bold" size="28.0" />
                </font>
             </Label>
-            <JFXTextField fx:id="txtSupplierId" focusColor="#530ce1" layoutX="26.0" layoutY="154.0" prefHeight="25.0" prefWidth="158.0" promptText="Supplier Id" unFocusColor="#550dd0" />
-            <JFXTextField fx:id="txtSupplierName" layoutX="244.0" layoutY="154.0" promptText="Supplier Name" unFocusColor="#550dd0" />
-            <JFXTextField fx:id="txtCompanyName" layoutX="20.0" layoutY="276.0" prefHeight="25.0" prefWidth="150.0" promptText="Company Name" unFocusColor="#550dd0" />
-            <JFXTextField fx:id="txtSupplierAddress" layoutX="244.0" layoutY="276.0" prefHeight="25.0" prefWidth="135.0" promptText="Supplier Address" unFocusColor="#550dd0" />
-            <Label layoutX="26.0" layoutY="111.0" prefHeight="17.0" prefWidth="164.0" text="Supplier Id" textFill="WHITE">
+            <JFXTextField fx:id="txtSupplierId" focusColor="#530ce1" layoutX="26.0" layoutY="91.0" prefHeight="25.0" prefWidth="158.0" promptText="Supplier Id" unFocusColor="#550dd0" />
+            <JFXTextField fx:id="txtSupplierName" layoutX="31.0" layoutY="174.0" promptText="Supplier Name" unFocusColor="#550dd0" />
+            <JFXTextField fx:id="txtCompanyName" layoutX="242.0" layoutY="172.0" prefHeight="25.0" prefWidth="150.0" promptText="Company Name" unFocusColor="#550dd0" />
+            <JFXTextField fx:id="txtSupplierAddress" layoutX="448.0" layoutY="172.0" prefHeight="25.0" prefWidth="135.0" promptText="Supplier Address" unFocusColor="#550dd0" />
+            <Label layoutX="26.0" layoutY="59.0" prefHeight="17.0" prefWidth="164.0" text="Supplier Id" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="244.0" layoutY="218.0" prefHeight="17.0" prefWidth="164.0" text="Supplier Address" textFill="WHITE">
+            <Label layoutX="446.0" layoutY="140.0" prefHeight="17.0" prefWidth="164.0" text="Supplier Address" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="26.0" layoutY="218.0" prefHeight="17.0" prefWidth="164.0" text="Company Name" textFill="WHITE">
+            <Label layoutX="237.0" layoutY="140.0" prefHeight="17.0" prefWidth="164.0" text="Company Name" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="244.0" layoutY="111.0" prefHeight="17.0" prefWidth="164.0" text="Supplier Name" textFill="WHITE">
+            <Label layoutX="31.0" layoutY="140.0" prefHeight="17.0" prefWidth="164.0" text="Supplier Name" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="18.0" />
                </font>
             </Label>
-            <Button layoutX="554.0" layoutY="112.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="25.0" prefWidth="230.0" style="-fx-background-color: #0652DD;" text="Add" textFill="#f5eeee">
+            <Button layoutX="18.0" layoutY="252.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0652DD;" text="Add" textFill="#f5eeee">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button layoutX="554.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="25.0" prefWidth="230.0" style="-fx-background-color: #0652DD;" text="Update" textFill="#fffefe">
+            <Button layoutX="198.0" layoutY="252.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0652DD;" text="Update" textFill="#fffefe">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button layoutX="554.0" layoutY="233.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="25.0" prefWidth="230.0" style="-fx-background-color: #0652DD;" text="Delete" textFill="#f5ecec">
+            <Button layoutX="371.0" layoutY="252.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0652DD;" text="Delete" textFill="#f5ecec">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button layoutX="554.0" layoutY="290.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="25.0" prefWidth="230.0" style="-fx-background-color: #0652DD;" text="Search" textFill="#f8f3f3">
+            <Button layoutX="535.0" layoutY="252.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: #0652DD;" text="Search" textFill="#f8f3f3">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <TableView fx:id="tblSupplier" layoutX="116.0" layoutY="390.0" prefHeight="240.0" prefWidth="668.0" styleClass="dashboard-colour2" stylesheets="@../css/Table.css">
+            <TableView fx:id="tblSupplier" layoutX="20.0" layoutY="295.0" prefHeight="155.0" prefWidth="634.0" styleClass="dashboard-colour2" stylesheets="@../css/Table.css">
                <columns>
                   <TableColumn fx:id="colSupplierId" prefWidth="112.0" text="Supplier Id" />
                   <TableColumn fx:id="colSupplierName" prefWidth="185.0" text="Supplier Name" />
                   <TableColumn fx:id="colCompanyName" prefWidth="185.0" text="Company Name" />
-                  <TableColumn fx:id="colSupplierAddress" prefWidth="185.0" text="Supplier Address" />
+                  <TableColumn fx:id="colSupplierAddress" prefWidth="184.0" text="Supplier Address" />
                </columns>
             </TableView>
-            <Button layoutX="423.0" layoutY="663.0" mnemonicParsing="false" onAction="#btnRelaodOnAction" style="-fx-background-color: #0652DD;" text="Reload" textFill="#fcf6f6">
+            <Button layoutX="261.0" layoutY="477.0" mnemonicParsing="false" onAction="#btnReloadOnAction" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: #0652DD;" text="Reload" textFill="#fcf6f6">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>

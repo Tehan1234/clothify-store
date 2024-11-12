@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
@@ -9,90 +10,104 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="704.0" prefWidth="855.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ItemManagementFormController">
+<AnchorPane prefHeight="558.0" prefWidth="666.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ItemManagementFormController">
    <children>
-      <Label alignment="CENTER" layoutX="223.0" layoutY="22.0" prefHeight="54.0" prefWidth="438.0" text="Item Management Form" textAlignment="CENTER" textFill="#f5f5f5">
+      <Label alignment="CENTER" layoutX="98.0" layoutY="22.0" prefHeight="25.0" prefWidth="470.0" text="Item Management Form" textAlignment="CENTER" textFill="#f5f5f5">
          <font>
-            <Font name="System Bold" size="37.0" />
+            <Font name="System Bold" size="28.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="txtItemCode" focusColor="#530ce1" layoutX="26.0" layoutY="154.0" prefHeight="25.0" prefWidth="158.0" promptText="Item Code" unFocusColor="#550dd0" />
-      <JFXTextField fx:id="txtItemName" layoutX="244.0" layoutY="154.0" promptText="Item Name" unFocusColor="#550dd0" />
-      <JFXTextField fx:id="txtUnitPrice" layoutX="20.0" layoutY="276.0" prefHeight="25.0" prefWidth="150.0" promptText="Unit Price" unFocusColor="#550dd0" />
-      <JFXTextField fx:id="txtQtyOnHand" layoutX="230.0" layoutY="277.0" prefHeight="25.0" prefWidth="135.0" promptText="Qty On Hand" unFocusColor="#550dd0" />
-      <ComboBox fx:id="cmbCategory" layoutX="441.0" layoutY="154.0" prefWidth="150.0" promptText="Category" />
-      <Label layoutX="26.0" layoutY="111.0" prefHeight="17.0" prefWidth="164.0" text="Item Code" textFill="WHITE">
-         <font>
-            <Font name="System Bold Italic" size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="230.0" layoutY="218.0" prefHeight="17.0" prefWidth="164.0" text="Qty On Hand" textFill="WHITE">
+      <JFXTextField fx:id="txtItemCode" focusColor="#530ce1" layoutX="16.0" layoutY="115.0" prefHeight="25.0" prefWidth="135.0" promptText="Item Code" unFocusColor="#550dd0" />
+      <JFXTextField fx:id="txtUnitPrice" layoutX="15.0" layoutY="287.0" prefHeight="25.0" prefWidth="150.0" promptText="Unit Price" unFocusColor="#550dd0" />
+      <JFXTextField fx:id="txtQtyOnHand" layoutX="230.0" layoutY="287.0" prefHeight="25.0" prefWidth="135.0" promptText="Qty On Hand" unFocusColor="#550dd0" />
+      <ComboBox fx:id="cmbCategory" layoutX="208.0" layoutY="204.0" prefWidth="150.0" promptText="Category" />
+      <Label layoutX="13.0" layoutY="80.0" prefHeight="17.0" prefWidth="164.0" text="Item Code" textFill="WHITE">
          <font>
             <Font name="System Bold Italic" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="26.0" layoutY="218.0" prefHeight="17.0" prefWidth="164.0" text="Unit Price" textFill="WHITE">
+      <Label layoutX="230.0" layoutY="256.0" prefHeight="17.0" prefWidth="164.0" text="Qty On Hand" textFill="WHITE">
          <font>
             <Font name="System Bold Italic" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="451.0" layoutY="111.0" prefHeight="17.0" prefWidth="164.0" text="Item Catagory" textFill="WHITE">
+      <Label layoutX="13.0" layoutY="256.0" prefHeight="17.0" prefWidth="164.0" text="Unit Price" textFill="WHITE">
          <font>
             <Font name="System Bold Italic" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="639.0" layoutY="111.0" prefHeight="17.0" prefWidth="164.0" text="Item Size" textFill="WHITE">
+      <Label layoutX="208.0" layoutY="165.0" prefHeight="17.0" prefWidth="164.0" text="Item Catagory" textFill="WHITE">
          <font>
             <Font name="System Bold Italic" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="244.0" layoutY="111.0" prefHeight="17.0" prefWidth="164.0" text="Item Name" textFill="WHITE">
+      <Label layoutX="442.0" layoutY="164.0" prefHeight="17.0" prefWidth="164.0" text="Item Size" textFill="WHITE">
          <font>
             <Font name="System Bold Italic" size="18.0" />
          </font>
       </Label>
-      <ComboBox fx:id="cmbSize" layoutX="630.0" layoutY="154.0" prefWidth="150.0" promptText="Size" />
-      <Label layoutX="434.0" layoutY="218.0" prefHeight="17.0" prefWidth="164.0" text="Item Supplier" textFill="WHITE">
+      <Label layoutX="13.0" layoutY="178.0" prefHeight="17.0" prefWidth="164.0" text="Item Name" textFill="WHITE">
          <font>
             <Font name="System Bold Italic" size="18.0" />
          </font>
       </Label>
-      <ComboBox fx:id="cmbSupplierID" layoutX="441.0" layoutY="276.0" prefWidth="150.0" promptText="Supplier ID" />
-      <Button layoutX="502.0" layoutY="336.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: #0652DD;" text="Add" textFill="#f5eeee">
+      <ComboBox fx:id="cmbSize" layoutX="442.0" layoutY="201.0" prefWidth="150.0" promptText="Size" />
+      <Label layoutX="435.0" layoutY="256.0" prefHeight="17.0" prefWidth="164.0" text="Item Supplier" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbSupplierID" layoutX="438.0" layoutY="287.0" prefWidth="150.0" promptText="Supplier ID" />
+      <Button layoutX="63.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #0652DD;" text="Add" textFill="#f5eeee">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
-      <Button layoutX="589.0" layoutY="336.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" style="-fx-background-color: #0652DD;" text="Update" textFill="#fffefe">
+      <Button layoutX="217.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #0652DD;" text="Update" textFill="#fffefe">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
-      <Button layoutX="678.0" layoutY="336.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" style="-fx-background-color: #0652DD;" text="Delete" textFill="#f5ecec">
+      <Button layoutX="368.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="25.0" prefWidth="85.0" style="-fx-background-color: #0652DD;" text="Delete" textFill="#f5ecec">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
-      <Button layoutX="759.0" layoutY="336.0" mnemonicParsing="false" onAction="#btnSearchOnAction" style="-fx-background-color: #0652DD;" text="Search" textFill="#f8f3f3">
+      <Button layoutX="505.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="25.0" prefWidth="85.0" style="-fx-background-color: #0652DD;" text="Search" textFill="#f8f3f3">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
-      <TableView fx:id="tblItem" layoutX="50.0" layoutY="416.0" prefHeight="224.0" prefWidth="757.0" styleClass="dashboard-colour2" stylesheets="@../css/Table.css">
+      <TableView fx:id="tblItem" layoutX="18.0" layoutY="375.0" prefHeight="143.0" prefWidth="622.0" styleClass="dashboard-colour2" stylesheets="@../css/Table.css">
          <columns>
             <TableColumn fx:id="colItemCode" prefWidth="112.0" text="Item Code" />
             <TableColumn fx:id="colItemName" prefWidth="173.0" text="Item Name" />
             <TableColumn fx:id="colCategory" prefWidth="88.0" text="Category" />
             <TableColumn fx:id="colItemSize" prefWidth="104.0" text="Item Size" />
             <TableColumn fx:id="colUnitPrice" prefWidth="136.0" text="Unit Price" />
-            <TableColumn fx:id="colQtyOnHand" prefWidth="143.0" text="Qty On Hand" />
+            <TableColumn fx:id="colQtyOnHand" prefWidth="142.66664632161462" text="Qty On Hand" />
          </columns>
       </TableView>
-      <Button layoutX="414.0" layoutY="656.0" mnemonicParsing="false" onAction="#btnRelaodOnAction" style="-fx-background-color: #0652DD;" text="Reload" textFill="#fcf6f6">
+      <Button layoutX="277.0" layoutY="524.0" mnemonicParsing="false" onAction="#btnReloadOnAction" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #0652DD;" text="Reload" textFill="#fcf6f6">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
+      <JFXTextField fx:id="txtItemName" focusColor="#530ce1" layoutX="16.0" layoutY="208.0" prefHeight="25.0" prefWidth="135.0" promptText="Item Code" unFocusColor="#550dd0" />
    </children>
 </AnchorPane>

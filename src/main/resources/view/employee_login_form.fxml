@@ -9,44 +9,48 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="654.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EmployeeLoginFormController">
+<AnchorPane prefHeight="517.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EmployeeLoginFormController">
    <children>
-      <AnchorPane layoutX="-7.0" prefHeight="681.0" prefWidth="533.0" style="-fx-background-color: #000000;">
+      <AnchorPane layoutX="-7.0" prefHeight="517.0" prefWidth="495.0" style="-fx-background-color: #000000;">
          <children>
-            <ImageView fitHeight="243.0" fitWidth="271.0" layoutX="137.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="108.0" fitWidth="164.0" layoutX="185.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../img/clothifyLogo.png" />
                </image>
             </ImageView>
-            <Label layoutX="52.0" layoutY="312.0" prefHeight="35.0" prefWidth="217.0" text="Email Address:-" textFill="WHITE">
+            <Label layoutX="52.0" layoutY="216.0" prefHeight="27.0" prefWidth="217.0" text="Email Address:-" textFill="WHITE">
                <font>
-                  <Font size="21.0" />
+                  <Font size="18.0" />
                </font>
             </Label>
-            <Label layoutX="52.0" layoutY="445.0" prefHeight="35.0" prefWidth="217.0" text="Password:-" textFill="WHITE">
+            <Label layoutX="45.0" layoutY="323.0" prefHeight="35.0" prefWidth="217.0" text="Password:-" textFill="WHITE">
                <font>
-                  <Font size="21.0" />
+                  <Font size="18.0" />
                </font>
             </Label>
-            <JFXButton fx:id="btnLogin" layoutX="141.0" layoutY="587.0" onAction="#btnLoginOnAction" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: #3742fa;" text="Login" textFill="#f8f8f8">
+            <JFXButton fx:id="btnLogin" layoutX="194.0" layoutY="447.0" onAction="#btnLoginOnAction" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #3742fa;" text="Login" textFill="#f8f8f8">
                <font>
-                  <Font size="27.0" />
+                  <Font size="20.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXTextField fx:id="txtEmail" layoutX="52.0" layoutY="368.0" prefHeight="50.0" prefWidth="318.0" promptText="Example@gmail.com">
+            <JFXTextField fx:id="txtEmail" layoutX="45.0" layoutY="259.0" prefHeight="35.0" prefWidth="279.0" promptText="Example@gmail.com">
                <font>
-                  <Font size="19.0" />
+                  <Font size="15.0" />
                </font>
             </JFXTextField>
-            <JFXTextField fx:id="txtPassword" layoutX="52.0" layoutY="492.0" prefHeight="50.0" prefWidth="318.0" promptText="**********">
+            <JFXTextField fx:id="txtPassword" layoutX="45.0" layoutY="373.0" prefHeight="35.0" prefWidth="279.0" promptText="**********">
                <font>
-                  <Font size="19.0" />
+                  <Font size="15.0" />
                </font>
             </JFXTextField>
+            <Label alignment="CENTER" layoutX="101.0" layoutY="108.0" prefHeight="31.0" prefWidth="276.0" text="Employee Login Form" textFill="#e0d7d7">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
    </children>

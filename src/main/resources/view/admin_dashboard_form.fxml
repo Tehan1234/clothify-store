@@ -9,16 +9,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="620.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminDashboardFormController">
+<AnchorPane prefHeight="525.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminDashboardFormController">
    <children>
-      <AnchorPane layoutY="-14.0" prefHeight="638.0" prefWidth="706.0" style="-fx-background-color: #000000;">
+      <AnchorPane prefHeight="525.0" prefWidth="563.0" style="-fx-background-color: #000000;">
          <children>
-            <Label layoutX="138.0" layoutY="14.0" text="Clothify Store (PVT) Ltd.  " textFill="#f5f5f5">
+            <Label layoutX="79.0" layoutY="14.0" text="Clothify Store (PVT) Ltd.  " textFill="#f5f5f5">
                <font>
                   <Font name="System Bold" size="37.0" />
                </font>
             </Label>
-            <JFXButton buttonType="RAISED" layoutX="55.0" layoutY="370.0" onAction="#btnEmployeeManagementOnAction" opacity="0.82" prefHeight="48.0" prefWidth="261.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Employee Management" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
+            <JFXButton buttonType="RAISED" layoutX="30.0" layoutY="295.0" onAction="#btnEmployeeManagementOnAction" opacity="0.82" prefHeight="48.0" prefWidth="232.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Employee Management" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
                <cursor>
                   <Cursor fx:constant="OPEN_HAND" />
                </cursor>
@@ -29,7 +29,7 @@
                   <Font name="System Bold" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton buttonType="RAISED" layoutX="369.0" layoutY="472.0" onAction="#btnSuppliersManagementOnAction" opacity="0.82" prefHeight="48.0" prefWidth="261.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Suppliers Management" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
+            <JFXButton buttonType="RAISED" layoutX="301.0" layoutY="357.0" onAction="#btnSuppliersManagementOnAction" opacity="0.82" prefHeight="48.0" prefWidth="232.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Suppliers Management" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
                <cursor>
                   <Cursor fx:constant="OPEN_HAND" />
                </cursor>
@@ -40,7 +40,7 @@
                   <Font name="System Bold" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton buttonType="RAISED" layoutX="55.0" layoutY="472.0" onAction="#btnReportGenerateOnAction" opacity="0.82" prefHeight="48.0" prefWidth="261.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Report Genarate" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
+            <JFXButton buttonType="RAISED" layoutX="30.0" layoutY="357.0" onAction="#btnReportGenerateOnAction" opacity="0.82" prefHeight="48.0" prefWidth="232.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Report Genarate" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
                <cursor>
                   <Cursor fx:constant="OPEN_HAND" />
                </cursor>
@@ -51,12 +51,12 @@
                   <Font name="System Bold" size="18.0" />
                </font>
             </JFXButton>
-            <ImageView fitHeight="186.0" fitWidth="177.0" layoutX="265.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="186.0" fitWidth="177.0" layoutX="199.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../img/clothifyLogo.png" />
                </image>
             </ImageView>
-            <JFXButton buttonType="RAISED" layoutX="369.0" layoutY="370.0" onAction="#btnOrderManagementOnAction" opacity="0.82" prefHeight="48.0" prefWidth="261.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Order Management" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
+            <JFXButton buttonType="RAISED" layoutX="301.0" layoutY="295.0" onAction="#btnOrderManagementOnAction" opacity="0.82" prefHeight="48.0" prefWidth="232.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Order Management" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
                <cursor>
                   <Cursor fx:constant="OPEN_HAND" />
                </cursor>
@@ -67,7 +67,7 @@
                   <Font name="System Bold" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton buttonType="RAISED" layoutX="211.0" layoutY="556.0" onAction="#btnItemManagementOnAction" opacity="0.82" prefHeight="48.0" prefWidth="261.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Item Management" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
+            <JFXButton buttonType="RAISED" layoutX="185.0" layoutY="430.0" onAction="#btnItemManagementOnAction" opacity="0.82" prefHeight="48.0" prefWidth="232.0" ripplerFill="#8a3c3c" style="-fx-background-color: #0652DD;" text="Item Management" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
                <cursor>
                   <Cursor fx:constant="OPEN_HAND" />
                </cursor>
